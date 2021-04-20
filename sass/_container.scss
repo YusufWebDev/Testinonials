@@ -1,0 +1,28 @@
+.container {
+	// background-color: rgb(184, 133, 124);
+	position: relative;
+	padding: 1.4rem;
+	background: url(../images/pattern-curve.svg);
+	background-repeat: no-repeat;
+	background-size: 75%;
+	background-position: bottom left;
+	margin-bottom: 0.5rem;
+
+	// 900px and above
+	@media (min-width: 37.5rem) {
+		display: flex;
+		align-items: center;
+		// justify-content: space-around;
+		flex-direction: row-reverse;
+	}
+
+	// 1200px
+	@media (min-width: 75rem) {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		flex-direction: row-reverse;
+		max-width: 75rem; //1200px
+		padding: 10rem 5rem;
+	}
+}
