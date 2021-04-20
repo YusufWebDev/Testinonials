@@ -1,0 +1,67 @@
+.text-section {
+	background: url("../images/pattern-quotes.svg");
+	background-repeat: no-repeat;
+	background-size: 19%;
+	background-position: top center;
+	padding-top: 1.75rem;
+	// padding-left: 2rem;
+	// padding-right: 2rem;
+	text-align: center;
+	transition: all 0.2s ease-in-out;
+
+	// 900px and above
+	@media (min-width: 56.25rem) {
+		// align-self: center;
+		// background: url("../images/pattern-quotes.svg");
+		// background-repeat: no-repeat;
+		// background-size: 15%;
+		// background-position: 7rem -2rem;
+		// padding-top: 3rem;
+		// text-align: left;
+	}
+
+	// 1200px
+	@media (min-width: 75rem) {
+		align-self: center;
+		background: url("../images/pattern-quotes.svg");
+		background-repeat: no-repeat;
+		background-size: 19%;
+		background-position: 7rem -2rem;
+		padding-top: 3rem;
+		text-align: left;
+		margin-right: 30rem;
+		max-width: 50ch;
+		z-index: 10;
+		margin-bottom: 5rem;
+	}
+}
+
+.testimonial-text {
+	font-size: 1.2rem;
+	font-weight: 300;
+	line-height: 1.3;
+	margin-bottom: 1.75rem;
+
+	// 900px and above
+	@media (min-width: 56.25rem) {
+	}
+
+	// 1200px
+	@media (min-width: 75rem) {
+		text-align: left;
+		font-size: 1.65rem;
+		line-height: 1.5;
+		width: 40ch;
+	}
+}
+
+.name {
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	font-size: 1.125rem;
+}
+
+.title {
+	color: rgb(186, 186, 207);
+	margin-bottom: 3.5rem;
+}
